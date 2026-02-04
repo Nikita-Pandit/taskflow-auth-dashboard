@@ -67,5 +67,25 @@ npm run dev
 Frontend runs on:
 http://localhost:5173
 ```
+## 🔐 API Endpoints
+
+### Auth
+```bash
+POST /api/v1/auth/signup
+POST /api/v1/auth/login
+```
+### Profile
+```bash
+GET /api/v1/me
+PUT /api/v1/me
+```
+### Tasks
+```bash
+GET /api/v1/tasks
+POST /api/v1/tasks
+PUT /api/v1/tasks/:id
+DELETE /api/v1/tasks/:id
+```
+
 
 
