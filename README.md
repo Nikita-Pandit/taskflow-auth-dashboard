@@ -58,4 +58,14 @@ npm run dev
 Backend runs on:
 http://localhost:5000
 ```
+### 3️⃣ Frontend Setup
+```bash
+cd frontend
+npm install
+npm run dev
+
+Frontend runs on:
+http://localhost:5173
+```
+
 
