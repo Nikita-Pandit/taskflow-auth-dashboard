@@ -98,8 +98,6 @@ Password: Demo@123
 ## 📑 API Documentation
 ```bash
 Postman collection included in the repository
-OR
-Swagger/OpenAPI can be added for API exploration
 ```
 ## 📈 How Would You Scale This for Production?
 To scale this application for production, the frontend and backend would be deployed separately using platforms like Vercel and AWS. Environment variables would be managed securely using secrets. Proper CORS configuration would be applied, and database indexing would be added for frequently queried fields. Pagination and caching (e.g., Redis) would be implemented to handle large datasets efficiently. Rate limiting and refresh tokens would improve security, while CI/CD pipelines would automate testing and deployment.
