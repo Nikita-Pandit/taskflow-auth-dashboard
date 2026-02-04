@@ -46,10 +46,16 @@ cd <repo-name>
 ```bash
 cd backend
 npm install
+
 Create a .env file in the backend folder:
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 
+Start backend server:
+npm run dev
+
+Backend runs on:
+http://localhost:5000
 ```
 
