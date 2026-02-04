@@ -40,3 +40,6 @@ The app provides secure authentication, a protected dashboard, user profile mana
 ```bash
 git clone <your-github-repo-url>
 cd <repo-name>
+
+```
+### 2️⃣ Backend Setup
